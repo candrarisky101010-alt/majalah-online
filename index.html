@@ -3,9 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Majalah Glitch and Glow</title>
+  <title>Glitch and Glow - Artikel</title>
 
   <style>
+    body {
+      margin: 0;
+      background: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: black;
+      position: sticky;
+      top: 0;
+    }
+
     nav a {
       margin: 10px;
       color: cyan;
@@ -13,36 +28,19 @@
       font-weight: bold;
     }
 
-    #artikel {
-      padding: 40px;
-      background: #1a1a1a;
-      text-align: left;
+    .container {
       max-width: 900px;
       margin: auto;
+      padding: 40px;
+      text-align: justify;
     }
 
-    body {
-      margin: 0;
-      background: #111;
-      color: white;
-      font-family: Arial, sans-serif;
+    h1, h2, h3, h4 {
       text-align: center;
     }
 
-    header {
-      padding: 20px;
-      background: black;
-      position: sticky;
-      top: 0;
-    }
-
-    img {
-      width: 95%;
-      max-width: 900px;
-      margin: 20px auto;
-      display: block;
-      border-radius: 10px;
-      box-shadow: 0px 0px 15px rgba(0,0,0,0.7);
+    ul {
+      margin-left: 20px;
     }
   </style>
 </head>
@@ -54,46 +52,111 @@
   <p>Majalah Online Kelompok 7</p>
 
   <nav>
-    <a href="#home">Home</a>
     <a href="#artikel">Artikel</a>
   </nav>
 </header>
 
-<div id="home">
-  <img src="majalah.pdf_page-0001.jpg">
-  <img src="majalah.pdf_page-0002.jpg">
-  <img src="majalah.pdf_page-0003.jpg">
-  <img src="majalah.pdf_page-0004.jpg">
-  <img src="majalah.pdf_page-0005.jpg">
-  <img src="majalah.pdf_page-0006.jpg">
-  <img src="majalah.pdf_page-0007.jpg">
-  <img src="majalah.pdf_page-0008.jpg">
-  <img src="majalah.pdf_page-0009.jpg">
-  <img src="majalah.pdf_page-0010.jpg">
-  <img src="majalah.pdf_page-0011.jpg">
-  <img src="majalah.pdf_page-0012.jpg">
-  <img src="majalah.pdf_page-0013.jpg">
-  <img src="majalah.pdf_page-0014.jpg">
-  <img src="majalah.pdf_page-0015.jpg">
-  <img src="majalah.pdf_page-0016.jpg">
-  <img src="majalah.pdf_page-0017.jpg">
-  <img src="majalah.pdf_page-0018.jpg">
-</div>
+<div class="container" id="artikel">
 
-<div id="artikel">
-  <h2>Artikel Ilmiah</h2>
+<h2>Artikel Ilmiah</h2>
 
-  <h3>Implementasi Smart Campus Berbasis Artificial Intelligence dan n8n</h3>
-  <p><b>Penulis:</b> Candra Risky Syafri Al Haditsi, dkk</p>
+<h3>Implementasi Smart Campus Berbasis Artificial Intelligence dan n8n untuk Integrasi Layanan Digital Mahasiswa</h3>
 
-  <h4>Abstrak</h4>
-  <p>Perkembangan teknologi digital mendorong perguruan tinggi menuju Smart Campus.</p>
+<p><b>Penulis:</b><br>
+Candra Risky Syafri Al Haditsi, Rafi Maulana, Nova Fitri Farliani, Ranti Hardianti Rahayu, Septi Anggraini
+</p>
 
-  <h4>Pendahuluan</h4>
-  <p>Transformasi digital dalam pendidikan tinggi menjadi kebutuhan utama.</p>
+<h4>Abstrak</h4>
+<p>
+Perkembangan teknologi digital mendorong perguruan tinggi untuk melakukan transformasi menuju konsep Smart Campus. Permasalahan yang sering terjadi pada layanan kampus adalah kurangnya integrasi antar sistem, proses administrasi yang lambat, serta pelayanan mahasiswa yang belum efisien. Penelitian ini bertujuan untuk mengimplementasikan Smart Campus berbasis Artificial Intelligence (AI) dan platform automasi n8n untuk mengintegrasikan layanan digital mahasiswa. Metode penelitian yang digunakan adalah Research and Development (R&D) dengan tahapan analisis kebutuhan, perancangan sistem, implementasi, dan pengujian sistem. Hasil penelitian menunjukkan bahwa penggunaan AI dan n8n mampu meningkatkan efisiensi layanan akademik melalui otomatisasi workflow, chatbot akademik, notifikasi otomatis, serta integrasi data antar platform kampus.
+</p>
 
-  <h4>Kesimpulan</h4>
-  <p>Implementasi Smart Campus meningkatkan efisiensi layanan mahasiswa.</p>
+<h4>Pendahuluan</h4>
+<p>
+Transformasi digital dalam dunia pendidikan tinggi menjadi kebutuhan utama di era modern. Perguruan tinggi dituntut menyediakan layanan yang cepat, efisien, dan terintegrasi guna meningkatkan kualitas pelayanan kepada mahasiswa. Namun, masih banyak kampus yang menggunakan sistem layanan terpisah sehingga proses administrasi menjadi lambat dan kurang efektif.
+</p>
+
+<p>
+Konsep Smart Campus hadir sebagai solusi dalam menciptakan lingkungan kampus yang cerdas dengan memanfaatkan teknologi informasi dan komunikasi. Artificial Intelligence (AI) digunakan untuk membantu proses otomatisasi pelayanan akademik seperti chatbot, analisis data mahasiswa, dan sistem rekomendasi akademik. Selain AI, platform automasi seperti n8n digunakan untuk menghubungkan berbagai layanan digital kampus secara otomatis.
+</p>
+
+<h4>Rumusan Masalah</h4>
+<ul>
+<li>Bagaimana implementasi Smart Campus berbasis Artificial Intelligence dan n8n?</li>
+<li>Bagaimana proses integrasi layanan digital mahasiswa menggunakan n8n?</li>
+<li>Apa manfaat penerapan AI dan n8n terhadap pelayanan akademik mahasiswa?</li>
+</ul>
+
+<h4>Tujuan Penelitian</h4>
+<ul>
+<li>Mengimplementasikan konsep Smart Campus berbasis Artificial Intelligence dan n8n.</li>
+<li>Mengintegrasikan layanan digital mahasiswa secara otomatis.</li>
+<li>Meningkatkan efisiensi dan kualitas pelayanan akademik mahasiswa.</li>
+</ul>
+
+<h4>Manfaat Penelitian</h4>
+<ul>
+<li>Meningkatkan efisiensi pelayanan akademik.</li>
+<li>Mempermudah integrasi sistem digital kampus.</li>
+<li>Mengurangi kesalahan administrasi manual.</li>
+<li>Mempercepat akses layanan akademik.</li>
+<li>Memberikan pengalaman digital yang modern.</li>
+</ul>
+
+<h4>Tinjauan Pustaka</h4>
+
+<h4>Smart Campus</h4>
+<p>
+Smart Campus merupakan konsep pengembangan kampus berbasis teknologi digital untuk meningkatkan efektivitas operasional dan pelayanan akademik.
+</p>
+
+<h4>Artificial Intelligence (AI)</h4>
+<p>
+Artificial Intelligence adalah teknologi yang memungkinkan komputer meniru kemampuan manusia dalam berpikir, menganalisis, dan mengambil keputusan. Dalam dunia pendidikan, AI digunakan untuk chatbot akademik, analisis data mahasiswa, sistem rekomendasi pembelajaran, dan otomatisasi administrasi.
+</p>
+
+<h4>n8n</h4>
+<p>
+n8n merupakan platform workflow automation open-source yang digunakan untuk menghubungkan berbagai aplikasi dan layanan digital secara otomatis.
+</p>
+
+<h4>Metodologi Penelitian</h4>
+<p>
+Penelitian ini menggunakan metode Research and Development (R&D) dengan tahapan analisis kebutuhan, perancangan sistem, implementasi, dan pengujian sistem.
+</p>
+
+<h4>Flow Sistem Smart Campus</h4>
+<p>
+Mahasiswa → Form Digital → n8n Workflow → Database Kampus → Artificial Intelligence → Notifikasi Otomatis
+</p>
+
+<h4>Hasil dan Pembahasan</h4>
+<p>
+Sistem Smart Campus berhasil diimplementasikan menggunakan kombinasi AI dan n8n. Sistem mampu mengintegrasikan berbagai layanan akademik seperti pengajuan surat online, chatbot akademik, notifikasi jadwal kuliah, pengingat pembayaran UKT, dan sistem konsultasi digital.
+</p>
+
+<p>
+Hasil pengujian menunjukkan proses layanan menjadi lebih cepat, mengurangi human error, serta mempermudah mahasiswa dalam mengakses layanan digital.
+</p>
+
+<h4>Kesimpulan</h4>
+<p>
+Implementasi Smart Campus berbasis Artificial Intelligence dan n8n mampu meningkatkan kualitas layanan digital mahasiswa melalui sistem yang terintegrasi dan otomatis.
+</p>
+
+<h4>Saran</h4>
+<ul>
+<li>Integrasi Internet of Things (IoT)</li>
+<li>Analisis Big Data mahasiswa</li>
+<li>Sistem keamanan berbasis AI</li>
+<li>Pengembangan mobile application Smart Campus</li>
+</ul>
+
+<h4>Daftar Pustaka</h4>
+<p>
+Jogiyanto (2017), Pressman (2015), Russell & Norvig (2021), Sutabri (2012), Turban (2018), n8n (2026), OpenAI (2026)
+</p>
+
 </div>
 
 </body>
